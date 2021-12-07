@@ -35,21 +35,6 @@ def test():
 	print(Sudoku.est_dans_bloc(sudoku,0,1))
 	print(Sudoku.liste_candidats_case(sudoku,(4,1)))
 	print(Sudoku.liste_candidats(sudoku))
-def main():
-	sudoku = [[0, 0, 0, 0, 2, 0, 7, 0, 8], 
-			  [5, 2, 0, 0, 0, 0, 0, 6, 0], 
-			  [1, 0, 4, 0, 0, 9, 0, 5, 0], 
-			  [0, 0, 0, 1, 7, 8, 0, 0, 6], 
-			  [0, 0, 0, 0, 4, 0, 8, 0, 0], 
-			  [0, 0, 0, 9, 5, 6, 0, 0, 0], 
-			  [6, 0, 0, 0, 0, 5, 2, 0, 7], 
-			  [0, 9, 0, 0, 0, 3, 0, 8, 0], 
-			  [0, 3, 2, 7, 0, 4, 5, 9, 0]]
-	Final.display(sudoku)
-
-
-
-
 
 if __name__ == '__main__':
-	main()
+	test()
