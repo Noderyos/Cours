@@ -1,0 +1,23 @@
+from gturtle import *
+
+makeTurtle()
+
+setPenColor("red")
+setLineWidth(2)
+forward(100)
+right(60)
+setPenColor("blue")
+forward(100)
+right(60)
+setPenColor("yellow")
+forward(100)
+right(60)
+setPenColor("grey")
+forward(100)
+right(60)
+setPenColor("green")
+forward(100)
+right(60)
+setPenColor("pink")
+forward(100)
+right(60)

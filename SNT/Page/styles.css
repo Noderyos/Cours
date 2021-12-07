@@ -1,0 +1,12 @@
+body {
+  color: white;
+
+}
+.bg {
+  background-image: url("https://wallpaperaccess.com/full/1076448.jpg");
+
+  filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
