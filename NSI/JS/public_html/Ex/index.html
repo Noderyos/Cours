@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Mon premier javascript</title>
+        <link href='monstyle.css' type='text/css' rel='stylesheet'>
+    </head>
+
+    <body>
+        <h1> Mon premier JS</h1>
+        <p> Amazing trick : </p>
+        <div id="mon_div" class="choix_couleur"></div>
+        <script type="text/javascript">
+            blue = false;
+            document.getElementById("mon_div").onclick = function() {
+                if (blue) {
+                    blue = false;                   
+                    document.getElementById("mon_div").style.backgroundColor = "red"
+                }
+                else {
+                    blue = true;
+                    document.getElementById("mon_div").style.backgroundColor = "blue"
+                }
+                console.log(blue)
+            }
+        </script>
+    </body>
+</html>

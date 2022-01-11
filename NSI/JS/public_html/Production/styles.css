@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
+body{
+	background-color: #3FB3F9;
+}
+
+#main-box{
+	text-align: center;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	background-color: white;
+	padding: 10px;
+	border-radius: 50px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#result{
+	background-color: #7F7F7F;
+	text-align: center;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	border-radius: 50px;
+	width: 90%;
+	margin: 20px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#red {
+  background: #7F0000;
+  border-radius: 8px;
+  height: 7px;
+  -webkit-appearance: none;
+  width: 80%
+}
+#green {
+  background: #007F00;
+  border-radius: 8px;
+  height: 7px;
+  -webkit-appearance: none;
+  width: 80%
+
+}
+#blue {
+  background: #00007F;
+  border-radius: 8px;
+  height: 7px;
+  -webkit-appearance: none;
+  width: 80%
+}
+
+/* Curseurs */
+#red::-moz-range-thumb {
+  padding: 0.25em;
+  border-radius: 50%;
+  box-shadow: 0 0 .5em #7F0000 inset;
+  background: #FF0000;
+}
+#green::-moz-range-thumb {
+  padding: 0.25em;
+  border-radius: 50%;
+  box-shadow: 0 0 .5em #007F00 inset;
+  background: #00FF00;
+}
+#blue::-moz-range-thumb {
+  padding: 0.25em;
+  border-radius: 50%;
+  box-shadow: 0 0 .5em #00007F inset;
+  background: #0000FF;
+}
+#code{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 3em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+}
